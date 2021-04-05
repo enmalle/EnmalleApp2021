@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EnmalleApp</string>
+    <string name="success">Exito</string>
+    <string name="warning">Advertencia</string>
+    <string name="error">Error</string>
+    <string name="success_title">Este es el título de éxito</string>
+    <string name="warning_title">Este es el título de advertencia</string>
+    <string name="error_title">Este es el título de error</string>
+    <string name="dunny_text">Este es el título de dunny text</string>
+    <string name="okay">Okay</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+</resources>

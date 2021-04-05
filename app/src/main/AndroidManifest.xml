@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.enmalleapp">
+
+    /<uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE " />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE " />
+
+    <application
+        android:name=".claseGlobal"
+        android:allowBackup="true"
+        android:icon="@mipmap/cdfe"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/cdfe"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".QrScanValidarReservacion"></activity>
+        <activity android:name=".posclases.PosEncuentroClaseAlumnos" />
+        <activity android:name=".posclases.PosEncuentroClasesActivity" />
+        <activity android:name=".administracion.EncuentroDetalleActivity" />
+        <activity android:name=".administracion.PreDetalleActivity" />
+        <activity android:name=".administracion.PosDetalleActivity" />
+        <activity android:name=".TurnosActivity" />
+        <activity android:name=".administracion.EncuentroCelula" />
+        <activity android:name=".administracion.PosEncuentroCelula" />
+        <activity android:name=".administracion.PreEncuentroCelula" />
+        <activity android:name=".SupervisionActivity" />
+        <activity android:name=".RegistroCreyenteActivity" />
+        <activity android:name=".login.RegistroLoginActivity" />
+        <activity android:name=".EscuelaActivity" />
+        <activity android:name=".PosEncuentroActivity" />
+        <activity android:name=".EncuentroActivity" />
+        <activity android:name=".MiCelulaActivity" />
+        <activity android:name=".PreEncuentroActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".login.LoginClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

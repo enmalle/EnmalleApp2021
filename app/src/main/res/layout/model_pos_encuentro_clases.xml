@@ -1,0 +1,2114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/contact_item_id">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="190dp">
+
+        <LinearLayout
+            android:background="@drawable/clase1"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="101dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/cdfe2" />
+
+                    <TextView
+                        android:id="@+id/cvClase1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:text="CLASE 1"
+                        android:textColor="#77ffffff"
+                        android:textSize="15dp" />
+
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/cvETema1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="TEMA"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:gravity="left"/>
+
+                        <TextView
+                            android:id="@+id/cvETemaClase1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="Tema de la Clase"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/cvEstadoClase1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="25sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="ESTADO"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:layout_marginTop="18dp"
+                            />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/cvVarones1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="8dp"
+                        android:text="0001"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+
+
+                    <TextView
+                        android:id="@+id/cvMujeres1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0002"
+                        android:textColor="#ffff"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/cvTotalAsistentes1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0003"
+                        android:textColor="#ffff"
+                        android:textSize="10dp" />
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/cvRedes1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Redes"
+                        android:textColor="#A1ffffff"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/cvCelula1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Celula"
+                        android:textColor="#A1ffffff"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="30dp"
+                        android:text="&#8942;"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:id="@+id/txtOptionDigitPos1"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="190dp">
+
+        <LinearLayout
+            android:background="@drawable/clase2"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="101dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/cdfe2" />
+
+                    <TextView
+                        android:id="@+id/cvClase2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:text="CLASE 2"
+                        android:textColor="#77ffffff"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/cvETema2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="TEMA"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:gravity="left"/>
+
+                        <TextView
+                            android:id="@+id/cvETemaClase2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="Tema de la Clase"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/cvEstadoClase2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="25sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="ESTADO"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:layout_marginTop="18dp"
+                            />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/cvVarones2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="8dp"
+                        android:text="0001"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+
+
+                    <TextView
+                        android:id="@+id/cvMujeres2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0002"
+                        android:textColor="#ffff"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/cvTotalAsistentes2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0003"
+                        android:textColor="#ffff"
+                        android:textSize="10dp" />
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/cvRedes2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Redes"
+                        android:textColor="#A1ffffff"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/cvCelula2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Celula"
+                        android:textColor="#A1ffffff"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="30dp"
+                        android:text="&#8942;"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:id="@+id/txtOptionDigitPos2"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="190dp">
+
+        <LinearLayout
+            android:background="@drawable/clase3"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="101dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/cdfe2" />
+
+                    <TextView
+                        android:id="@+id/cvClase3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:text="CLASE 3"
+                        android:textColor="#77ffffff"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/cvETema3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="TEMA"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:gravity="left"/>
+
+                        <TextView
+                            android:id="@+id/cvETemaClase3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="Tema de la Clase"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/cvEstadoClase3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="25sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="ESTADO"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:layout_marginTop="18dp"
+                            />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/cvVarones3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="8dp"
+                        android:text="0001"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+
+
+                    <TextView
+                        android:id="@+id/cvMujeres3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0002"
+                        android:textColor="#ffff"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/cvTotalAsistentes3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0003"
+                        android:textColor="#ffff"
+                        android:textSize="10dp" />
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/cvRedes3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Redes"
+                        android:textColor="#A1ffffff"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/cvCelula3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Celula"
+                        android:textColor="#A1ffffff"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="30dp"
+                        android:text="&#8942;"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:id="@+id/txtOptionDigitPos3"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="190dp">
+
+        <LinearLayout
+            android:background="@drawable/clase4"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="101dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/cdfe2" />
+
+                    <TextView
+                        android:id="@+id/cvClase4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:text="CLASE 4"
+                        android:textColor="#77ffffff"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/cvETema4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="TEMA"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:gravity="left"/>
+
+                        <TextView
+                            android:id="@+id/cvETemaClase4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="Tema de la Clase"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/cvEstadoClase4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="25sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="ESTADO"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:layout_marginTop="18dp"
+                            />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/cvVarones4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="8dp"
+                        android:text="0001"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+
+
+                    <TextView
+                        android:id="@+id/cvMujeres4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0002"
+                        android:textColor="#ffff"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/cvTotalAsistentes4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0003"
+                        android:textColor="#ffff"
+                        android:textSize="10dp" />
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/cvRedes4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Redes"
+                        android:textColor="#A1ffffff"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/cvCelula4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Celula"
+                        android:textColor="#A1ffffff"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="30dp"
+                        android:text="&#8942;"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:id="@+id/txtOptionDigitPos4"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="190dp">
+
+        <LinearLayout
+            android:background="@drawable/clase5"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="101dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/cdfe2" />
+
+                    <TextView
+                        android:id="@+id/cvClase5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:text="CLASE 5"
+                        android:textColor="#77ffffff"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/cvETema5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="TEMA"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:gravity="left"/>
+
+                        <TextView
+                            android:id="@+id/cvETemaClase5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="Tema de la Clase"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/cvEstadoClase5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="25sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="ESTADO"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:layout_marginTop="18dp"
+                            />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/cvVarones5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="8dp"
+                        android:text="0001"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+
+
+                    <TextView
+                        android:id="@+id/cvMujeres5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0002"
+                        android:textColor="#ffff"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/cvTotalAsistentes5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0003"
+                        android:textColor="#ffff"
+                        android:textSize="10dp" />
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/cvRedes5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Redes"
+                        android:textColor="#A1ffffff"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/cvCelula5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Celula"
+                        android:textColor="#A1ffffff"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="30dp"
+                        android:text="&#8942;"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:id="@+id/txtOptionDigitPos5"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="190dp">
+
+        <LinearLayout
+            android:background="@drawable/clase6"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="101dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/cdfe2" />
+
+                    <TextView
+                        android:id="@+id/cvClase6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:text="CLASE 6"
+                        android:textColor="#77ffffff"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/cvETema6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="TEMA"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:gravity="left"/>
+
+                        <TextView
+                            android:id="@+id/cvETemaClase6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="Tema de la Clase"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/cvEstadoClase6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="25sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="ESTADO"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:layout_marginTop="18dp"
+                            />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/cvVarones6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="8dp"
+                        android:text="0001"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+
+
+                    <TextView
+                        android:id="@+id/cvMujeres6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0002"
+                        android:textColor="#ffff"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/cvTotalAsistentes6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0003"
+                        android:textColor="#ffff"
+                        android:textSize="10dp" />
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/cvRedes6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Redes"
+                        android:textColor="#A1ffffff"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/cvCelula6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Celula"
+                        android:textColor="#A1ffffff"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="30dp"
+                        android:text="&#8942;"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:id="@+id/txtOptionDigitPos6"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="190dp">
+
+        <LinearLayout
+            android:background="@drawable/clase7"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="101dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/cdfe2" />
+
+                    <TextView
+                        android:id="@+id/cvClase7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:text="CLASE 7"
+                        android:textColor="#77ffffff"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/cvETema7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="TEMA"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:gravity="left"/>
+
+                        <TextView
+                            android:id="@+id/cvETemaClase7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="Tema de la Clase"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/cvEstadoClase7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="25sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="ESTADO"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:layout_marginTop="18dp"
+                            />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/cvVarones7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="8dp"
+                        android:text="0001"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+
+
+                    <TextView
+                        android:id="@+id/cvMujeres7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0002"
+                        android:textColor="#ffff"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/cvTotalAsistentes7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0003"
+                        android:textColor="#ffff"
+                        android:textSize="10dp" />
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/cvRedes7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Redes"
+                        android:textColor="#A1ffffff"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/cvCelula7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Celula"
+                        android:textColor="#A1ffffff"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="30dp"
+                        android:text="&#8942;"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:id="@+id/txtOptionDigitPos7"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="190dp">
+
+        <LinearLayout
+            android:background="@drawable/clase8"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="101dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/cdfe2" />
+
+                    <TextView
+                        android:id="@+id/cvClase8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:text="CLASE 8"
+                        android:textColor="#77ffffff"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/cvETema8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="TEMA"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:gravity="left"/>
+
+                        <TextView
+                            android:id="@+id/cvETemaClase8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="Tema de la Clase"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/cvEstadoClase8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="25sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="ESTADO"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:layout_marginTop="18dp"
+                            />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/cvVarones8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="8dp"
+                        android:text="0001"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+
+
+                    <TextView
+                        android:id="@+id/cvMujeres8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0002"
+                        android:textColor="#ffff"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/cvTotalAsistentes8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0003"
+                        android:textColor="#ffff"
+                        android:textSize="10dp" />
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/cvRedes8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Redes"
+                        android:textColor="#A1ffffff"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/cvCelula8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Celula"
+                        android:textColor="#A1ffffff"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="30dp"
+                        android:text="&#8942;"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:id="@+id/txtOptionDigitPos8"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="190dp">
+
+        <LinearLayout
+            android:background="@drawable/clase9"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="101dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/cdfe2" />
+
+                    <TextView
+                        android:id="@+id/cvClase9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:text="CLASE 9"
+                        android:textColor="#77ffffff"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/cvETema9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="TEMA"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:gravity="left"/>
+
+                        <TextView
+                            android:id="@+id/cvETemaClase9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="Tema de la Clase"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/cvEstadoClase9"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="25sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="ESTADO"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:layout_marginTop="18dp"
+                            />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/cvVarones9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="8dp"
+                        android:text="0001"
+                        android:textColor="#ffffff"
+                        android:textSize="13dp" />
+
+
+                    <TextView
+                        android:id="@+id/cvMujeres9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0002"
+                        android:textColor="#ffff"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/cvTotalAsistentes9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0003"
+                        android:textColor="#ffff"
+                        android:textSize="10dp" />
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/cvRedes9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Redes"
+                        android:textColor="#A1ffffff"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/cvCelula9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginRight="0dp"
+                        android:text="Celula"
+                        android:textColor="#A1ffffff"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="30dp"
+                        android:text="&#8942;"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:id="@+id/txtOptionDigitPos9"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="190dp">
+
+        <LinearLayout
+            android:background="@drawable/clasex"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="101dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/cdfe2" />
+
+                    <TextView
+                        android:id="@+id/cvClaseX"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:text="             FIN"
+                        android:textColor="#77ffffff"
+                        android:textSize="15dp" />
+
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/cvETemaX"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="FIN DEL POS-ENCUENTRO"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:gravity="left"/>
+
+                        <TextView
+                            android:id="@+id/cvETemaClaseX"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="Alumnos aprobados"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/cvEstadoClaseX"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="false"
+                            android:autoSizeMinTextSize="4sp"
+                            android:autoSizeMaxTextSize="25sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:autoSizePresetSizes="@array/autosize_text_sizes"
+                            android:singleLine="true"
+                            android:text="ESTADO"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold|italic"
+                            android:layout_marginTop="18dp"
+                            />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"
+                    >
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonovalo"
+                        android:text="Aprobados"
+                        android:textColor="#F44336"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+                    <Button
+                        android:layout_width="5dp"
+                        android:layout_height="10dp"
+                        android:visibility="invisible"
+
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonovalo"
+                        android:text="Cancelar"
+                        android:textColor="#F44336"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
